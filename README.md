@@ -9,7 +9,7 @@ Please recreate the table (illustrated above) utilizing either React or Vue.js. 
 * If you would like to use a library like normalize.css that is fine, but all CSS for implementing the design should be written from scratch (in other words, without using a framework like Bootstrap).
 * Use of a preprocessor like SASS/SCSS is actively encouraged.
 * Use of a frontend build tool is actively encouraged (we prefer Webpack, but use whatever you prefer.)
-* Please make sure you include all of our source code, including SCSS/LESS files, configurations for build tools, etc.
+* Please make sure you include all of your source code, including SCSS/LESS files, configurations for build tools, etc.
 
 ## Submission
 When you are ready to submit your solution, please follow these instructions:
