@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Table from './Table.js';
 import './app.scss';
 
 export default class App extends Component {
@@ -16,6 +17,13 @@ export default class App extends Component {
     //Render the DataViz component and pass the company data
     render() {
         return (
+            <div className="tableContainer">
+                {
+                    this.state.companyData ? 
+                    <Table data={this.state.companyData} /> : 
+                    <h1>Loading.. please wait!</h1>
+                }
+            </div>
         );
     }
 }
