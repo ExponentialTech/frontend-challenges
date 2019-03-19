@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import MaterialTable from 'material-table';
+import Paginate from './Paginate.js';
 import DataBar from './DataBar.js';
 
 export default class Table extends Component {
@@ -7,6 +8,12 @@ export default class Table extends Component {
     render() {
         return (
             <MaterialTable
+                components={{
+                    //Custom Pagination options
+                    Pagination: props => (
+                        <Paginate {...props} />
+                    ),
+                }}
                 columns={[
                     { title: 'Company Name', field: 'Company Name' },
                     { title: 'ISIN', field: 'ISIN' },
