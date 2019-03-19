@@ -51,4 +51,40 @@ body {
             top: 33%;
         }
     }
+
+    // Paginate component style
+    .paginate-cell {
+        display: inline-flex;
+        justify-content: flex-end;
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+
+        div {
+            display: flex;
+            width: 4em;
+            height: 60%;
+            margin: 0.6em;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+        .paginate-button {
+            border: #303030 1px solid;
+            cursor: pointer;
+
+            &:hover {
+                background-color: lightgrey;
+            }
+        }
+
+        .paginate-pages {
+            display: flex;
+            justify-content: space-evenly;
+
+            .number {
+                text-decoration: underline;
+            }
+        }
+    }
 }
