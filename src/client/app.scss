@@ -25,6 +25,31 @@ body {
         position: relative;
         padding-top: 18px;
         padding-bottom: 0;
+
+        //Would need to come up with a more dynamic solution for secondary headers
+        &:nth-child(5):before {
+            content: "WOMEN (PER 100)";
+            position: absolute;
+            top: 0;
+            border-bottom: black 1px solid;
+            width: 140%;
+        }
+
+        &:nth-child(7):before {
+            content: "CO2 SCOPE 1 & 2";
+            position: absolute;
+            top: 0;
+            border-bottom: black 1px solid;
+            width: 140%;
+        }
+
+        &:nth-child(9):before {
+            content: "CO2 SCOPE 3";
+            position: absolute;
+            top: 0;
+            border-bottom: black 1px solid;
+            width: 140%;
+        }
     }
 
     td {
