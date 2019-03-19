@@ -3,3 +3,33 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+.tableContainer {
+
+    //header class
+    .MuiToolbar-root-35 {
+        display: inline-flex;
+        padding-bottom: 15px;
+        padding-left: 90%;
+        transform: translateX(-50%);
+
+        h6 {
+            font-weight: 600;
+        }
+    }
+
+    th {
+        text-transform: uppercase;
+        color: #000000 !important;
+        border-bottom: black 1px solid;
+        position: relative;
+        padding-top: 18px;
+        padding-bottom: 0;
+    }
+
+    td {
+        color: #383838 !important;
+        text-align: center;
+    }
+
+}
