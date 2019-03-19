@@ -32,4 +32,23 @@ body {
         text-align: center;
     }
 
+    // DataBar component style
+    .data-bar-container {
+        display: flex;
+
+        .score {
+            position: absolute;
+            left: 0;
+            top: 35%;
+            padding-right: 15px;
+        }
+
+        .bar {
+            width: 100%;
+            height: 20px;
+            position: absolute;
+            left: 50px;
+            top: 33%;
+        }
+    }
 }
