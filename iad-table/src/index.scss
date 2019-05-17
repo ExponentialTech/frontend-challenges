@@ -18,9 +18,10 @@ body {
   display: flex;
   justify-content: center;
   margin: 30px 0px 60px 0px;
-  & > .header {
-    width: 100%;
-  }
+}
+
+.app-header {
+  font-weight: bolder;
 }
 
 .table-container {
