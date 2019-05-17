@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px 60px 0px;
+  & > .header {
+    width: 100%;
+  }
+}
+
+.table-container {
+  width: 100%;
+}
+
+.table-header-container {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  & > .table-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    & > .header {
+      margin-left: 10px;
+    }
+    & > .header {
+      display: flex;
+      border-bottom: 2px solid black;
+    }
+  }
+}
+
+.column-header {
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.column-container {
+  display: flex;
+  justify-content: center;
+  & > .column-data {
+    border-bottom: 1px solid black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    & > p {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+.top-header {
+  border-bottom: 2px solid black;
+}
+
+.double-column {
+  display: flex;
+  flex-direction: row;
+}
+
+.esg-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.data-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+svg {
+  transform: rotate(90deg);
+}
+
+.sortable-title {
+  margin-right: 10px
+}
+
+.icon {
+  width: 20px;
+}
+
+.sortable-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.sorted {
+  transform: rotate(180deg);
+}
