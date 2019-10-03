@@ -1,0 +1,127 @@
+.table-wrap{
+	margin:10px;
+	width:100%;
+	overflow:scroll;
+
+}
+
+.main-table{
+	white-space: nowrap;
+	width:80%;
+	margin:50px;
+	margin-right:50px;
+	margin-top:100px;
+	border-collapse: collapse;
+	color:#464444;
+
+	&:after {
+	  content: "";
+	  display: block;
+	  position: absolute;
+	  right: -5rem;
+	  width: 2rem;
+	  height: 1px;
+	}
+
+	.low-row{
+		vertical-align: bottom;
+	}
+
+	.regular-cell{
+		vertical-align:middle;
+	}
+
+	.regular-row{
+		&:hover{
+			border-left: 5px solid rgba(35, 45, 105, .85);
+		}
+	}
+
+	th{
+		text-align: left;
+		margin-left:20px;
+    	font-size: 13px;
+    	font-weight: 600;
+    	letter-spacing: 1.2px;
+
+	}
+
+	.super-header{
+		text-align: left;
+		border-bottom: 1.5px solid black;
+		border-left:5px solid white;
+		padding-left:4px;
+		letter-spacing: 3px;
+
+	}
+
+	.regular-header{
+		cursor: pointer;
+    	border-bottom: 1px solid black;
+	}
+
+
+	.managers{
+		padding-left:8px;
+		padding-right:20px;
+	}
+
+	.employees{
+		padding-right:10px;
+	}
+
+	.companyname{
+		padding-right:150px;
+	}
+
+	.totalcompanyrevenue{
+		width:30%;
+		padding-right:25px;
+	}
+
+	.total-scope12{
+		padding-right:25px;
+		padding-left:15px;
+	}
+
+	.revadj-scope12{
+		padding-right:25px;
+		padding-left:0px;
+	}
+
+	.total-scope3{
+		padding-right:25px;
+		padding-left:15px;
+	}
+
+	.revadj-scope3{
+		padding-right:25px;
+	}
+
+	.esgscore{
+		padding-left:20px;
+	} 
+
+	td{
+		font-weight:10;
+		font-size:13px;
+    	white-space: nowrap;
+    	overflow: hidden;
+    	padding:10px 20px 10px 0px;
+    	font-weight: 100;
+    	border-bottom: 1px solid #BABABA;
+    	vertical-align:top;
+	}
+
+	.footer{
+		border-bottom:20px solid white;
+	}
+
+	.company-name{
+		text-align:left;
+	}
+
+	.border-gap{
+		border-left:12px solid white;
+	}
+}

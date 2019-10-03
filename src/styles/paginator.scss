@@ -1,0 +1,30 @@
+.paginator-wrapper{
+	display:flex;
+	float:right;
+	margin-right:-20px;
+	margin-top:15px;
+	button{
+	    line-height: 0;
+	    padding: 0;
+	    padding-top:3px;
+	    text-align: center;
+	    height: 30px;
+	    width: 55px;
+	    background: transparent;
+	    color: #303030;
+	    border: 1px solid #303030;
+	}
+
+	div{
+    	margin: auto 15px;
+    	font-size:12px;
+
+    	span{
+    		border-bottom: 1px solid black;
+    		padding-right:7px;
+    		padding-left:7px;
+    		padding-bottom:3px;
+			margin-left:15px;
+    	}
+	}
+}

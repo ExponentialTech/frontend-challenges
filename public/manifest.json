@@ -1,0 +1,6 @@
+{
+  "short_name": "Flat World Table",
+  "name": "Flat World Table",
+  "start_url": "./index.html",
+  "display": "standalone"
+}

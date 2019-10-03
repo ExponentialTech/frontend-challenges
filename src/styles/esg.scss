@@ -1,0 +1,32 @@
+.esg-border{
+	width:10px;
+	height:50px;
+	margin:-20px;
+	margin-left:5px;
+	border-left: 1px solid black;
+}
+
+.esg-bar{
+	height:20px;
+	padding:3px;
+	margin-left:10px;
+	background-color:#001B42;
+}
+
+.esg-parent{
+	width:300px;
+}
+
+.esg-wrapper{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	vertical-align:top;
+	padding-left:50px;
+}
+
+.esg-text{
+	padding-left: 50px;
+	padding-bottom:0px;
+	padding-top:0px;
+}
