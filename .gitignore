@@ -1,3 +1,7 @@
+# cypcar dependencies
+yves-blue/node_modules
+yves-blue/package-lock.json
+
 # Logs
 logs
 *.log

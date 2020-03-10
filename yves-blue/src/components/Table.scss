@@ -1,0 +1,54 @@
+table {
+    width: 100%;
+    min-width: 1500px;
+    font-size: 14px;
+    thead {
+        th.table-title {
+            line-height: 100px;
+            font-family: 'Source Sans Pro', sans-serif;
+            border: none;
+            text-align: center;
+            font-size: 24px;
+        }
+    }
+    th + th {
+        text-align: center;
+    }
+    th {
+        vertical-align: bottom;
+        text-align: left;
+        border-bottom: 1px solid #222;
+        line-height: 20px;
+        &.col-title.empty {
+            border-bottom: none;
+            height: 15px;
+        }
+    }
+    td {
+        font-size: 14px;
+        border-bottom: .5px solid #ccc;
+        line-height: 30px;
+        &.center-align {
+            text-align: center;
+        }
+        &.right-align {
+            text-align: right;
+            padding-right: 20px;
+        }
+        &.esg-cell {
+            min-width: 125px;
+        }
+        div.esg-num {
+            float: left;
+            padding-right: 10px;
+            border-right: 1px solid #222;
+            margin-left: 40px;
+        }
+        div.esg-bar {
+            width: 80px;
+            height: 22px;
+            float: left;
+            margin-top: 4px;
+        }
+    }
+}

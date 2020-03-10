@@ -1,0 +1,21 @@
+.page-nav {
+    float: right;
+    button {
+        outline: none;
+        border: 1px solid;
+        background: none;
+        padding: 10px;
+        margin: 20px;
+    }
+    span {
+        &.page-word {
+            padding-right: 10px;
+        }
+        &.page-number {
+            border-bottom: .5px solid #222;
+            width: 50px;
+            padding: 0 10px;
+        }
+    }
+    
+}
