@@ -33,4 +33,4 @@ In order to complete the challenge, all acceptance criteria must be met:
 ## Submission
 When you are ready to submit your solution, please follow these instructions:
 * Commit all of your work to the feature branch, including all of your source code, configuration files, etc.
-* Zip up the folder (minus the `node_modules` folder, please!) and submit it to us via e-mail. (Note, the zip file should be smaller than a couple of megabytes. If you zip the folder up and it is very large, you likely forgot to remove the `node_modules` folder.)
+* Zip up the folder (minus the `node_modules` folder, please!) and submit it to us via e-mail. _(Note, the zip file should be smaller than a couple of megabytes. If you zip the folder up and it is very large, you likely forgot to remove the `node_modules` folder.)_
