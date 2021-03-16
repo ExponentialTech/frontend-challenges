@@ -17,7 +17,7 @@ Here is a challenge we would like you to complete to help assess and show off yo
 * You can view the public design file in [Figma](https://www.figma.com/file/itPY0qbfyHZG1EmsavVno5/Frontend-Assessment).
 * All required fonts can be included directly from [Google Fonts](https://fonts.google.com/).
 * We’re trying to keep pace with the React community, and are implementing most of new components utilizing React Hooks. We would encourage you to do so for this project.
-* We want to see how you manage state without using built-in libraries.
+* We want to see how you manage state without using external libraries.
 * For styling, you can use any libraries you want; we encourage you to use the libraries you’re most familiar with, as long as you’re writing your own styles (i.e., not utilizing frameworks like Bootstrap, SemanticUI, Blueprint, etc.).
 * We are looking at this deliverable as if it was a "miniature product", so therefore, please organize your code as you would expect to do so in a larger application, utilizing best practices for file organization, architecture, documentation, etc.
 * The [included data file](/public/data.json?raw=true) includes 250 records to populate.
