@@ -25,7 +25,7 @@ Here is a challenge we would like you to complete to help assess and show off yo
 
 ## Acceptance Criteria
 In order to complete the challenge, all acceptance criteria must be met:
-* The table should be sortable by each column (note that the last column&mdash;the ESG SCore and graph&mdash;are considered one column.)
+* The table should be sortable by each column (note that the last column&mdash;the ESG Score and graph&mdash;are considered one column.)
 * The table should be able to be paged through using the Previous and Next buttons.
 * The ESG Score chart should be "heat mapped" where the base color is `rgb(0, 27, 66)`, but the opacity is the ESG score (on a scale of 0 to 100.)
 * The ESG Score bar's width should be sized relative to the ESG score (on a scale of 0 to 100.)
@@ -33,4 +33,4 @@ In order to complete the challenge, all acceptance criteria must be met:
 ## Submission
 When you are ready to submit your solution, please follow these instructions:
 * Commit all of your work to the feature branch, including all of your source code, configuration files, etc.
-* Zip up the folder (minus the `node_modules` folder, please!) and submit it to us via e-mail.
+* Zip up the folder (minus the `node_modules` folder, please!) and submit it to us via e-mail. (Note, the zip file should be smaller than a couple of megabytes. If you zip the folder up and it is very large, you likely forgot to remove the `node_modules` folder.)
